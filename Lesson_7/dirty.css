@@ -1,0 +1,32 @@
+/* 
+	Get Your Hands Dirty CSS
+	========================
+	Satodhru Das
+	Syl, BD
+	April 2020
+*/
+
+/* Simple CSS Reset */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body{
+	background: Black url("images/background.jpg") Top center no-repeat;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	-webkit-font-smooting: antialiased;
+	text-rendering: optimizelegibility;
+	
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	padding: 0px 0px 10px;
+	margin: 0px, 0px, 10px;
+}

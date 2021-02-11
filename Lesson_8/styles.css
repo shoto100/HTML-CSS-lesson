@@ -1,0 +1,105 @@
+/* 
+	Lesson_8 CSS
+	============
+	 Shotodhru
+	 Sylhet,BD
+   13 April"2020
+   	 
+*/
+
+/* Simple CSS Reset */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #333;
+	color: #222;
+	text-align: center;
+	
+}
+
+#container{
+	margin: 20px auto;
+	background: white;
+	width: 500px;
+	padding: 20px;
+}
+
+h1{
+	margin: 0 0 20px;
+}
+
+p{
+	margin: 0 0 20px;
+}
+
+/* styling links */
+
+a:link {
+	 #f42aa6;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #f42aa6
+}
+
+a:hover {
+	color: #a50578;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #000;
+}
+
+#link-1:hover {
+	background: #333;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#link-3{
+	background: #f42aa6;
+	color: white;
+	padding: 5px;	
+}
+
+#link-3:hover {
+	background: #a50578;
+	color: white;
+	text-decoration: none;
+}
+
+#link-4:hover {
+	background: #000;
+	color: #aaa;
+	padding: 5px;
+}
+
+
+/* CSS Positioning */
+
+.box{
+	background: #db4e4e;
+	color: white;
+	width: 150px;
+	height: 150px;
+	margin: 20px 0;
+}
+
+#relative-box{
+	position: relative;
+	bottom: 220px;
+	left: -270px;
+}
+
+#absolute-box{
+	position: absolute;
+	margin-bottom:;: 0p;
+}
